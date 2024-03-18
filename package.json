@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development nodemon index",
-    "test": "cross-env NODE_ENV=test jest",
+    "start": "cross-env NODE_ENV=development nodemon server",
+    "test": "cross-env NODE_ENV=test jest --watchAll",
     "lint": "eslint .",
     "format": "eslint . --fix"
   },
